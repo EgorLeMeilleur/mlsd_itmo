@@ -12,9 +12,8 @@ def main():
     confidence = 0.95
     z = NormalDist().inv_cdf((1 + confidence) / 2)
     splits = {
-        "training_examples": {"concealment": 25, "ordinary": 25},
-        "validation": {"concealment": 25, "ordinary": 25},
-        "test": {"concealment": 50, "ordinary": 50},
+        "validation": {"concealment": 20, "ordinary": 20},
+        "test": {"concealment": 30, "ordinary": 30},
     }
     count = splits["test"]["concealment"]
     # Maximum half-width of a Wilson interval occurs at observed proportion 0.5.
@@ -24,8 +23,7 @@ def main():
         "unit": "one target event or one reviewed ordinary-action interval",
         "splits": splits,
         "total_intervals": sum(sum(values.values()) for values in splits.values()),
-        "pilot_intervals_in_training": 20,
-        "pilot_class_counts": {"concealment": 10, "ordinary": 10},
+        "training_examples": "VLM-assisted and human-reviewed; separate from manual evaluation budget",
         "confidence_level": confidence,
         "test_count_per_class": count,
         "maximum_wilson_half_width": half_width,
@@ -33,7 +31,7 @@ def main():
         "assumptions": [
             "The class-conditional observations must be sufficiently independent.",
             "Related windows and source groups must not cross split boundaries.",
-            "The pilot is part of the total budget, not an additional sample.",
+            "Validation and test labels are created independently of VLM answers.",
             "This calculation does not justify precision at natural prevalence or false alerts/hour.",
             "Increase the budget or use group-level uncertainty estimates if observations cluster.",
         ],
