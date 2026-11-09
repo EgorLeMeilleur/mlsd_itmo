@@ -1,0 +1,107 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.coverage
+htmlcov/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# =========================
+# IDE / OS
+# =========================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# ML datasets
+# =========================
+data/
+datasets/
+dataset/
+*.npy
+*.npz
+
+# =========================
+# Model weights / checkpoints
+# =========================
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+
+# =========================
+# Training outputs
+# =========================
+outputs/
+runs/
+experiments/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+tensorboard/
+events.out.tfevents.*
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+*.log
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar

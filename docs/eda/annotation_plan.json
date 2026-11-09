@@ -1,0 +1,28 @@
+{
+  "status": "proposed_budget_not_completed_annotations",
+  "unit": "one target event or one reviewed ordinary-action interval",
+  "splits": {
+    "validation": {
+      "concealment": 20,
+      "ordinary": 20
+    },
+    "test": {
+      "concealment": 30,
+      "ordinary": 30
+    }
+  },
+  "total_intervals": 100,
+  "training_examples": "VLM-assisted and human-reviewed; separate from manual evaluation budget",
+  "confidence_level": 0.95,
+  "test_count_per_class": 30,
+  "maximum_wilson_half_width": 0.1684587435946623,
+  "test_source_group_target": 30,
+  "assumptions": [
+    "The class-conditional observations must be sufficiently independent.",
+    "Related windows and source groups must not cross split boundaries.",
+    "Validation and test labels are created independently of VLM answers.",
+    "This calculation does not justify precision at natural prevalence or false alerts/hour.",
+    "Increase the budget or use group-level uncertainty estimates if observations cluster."
+  ],
+  "method_reference": "NIST/SEMATECH e-Handbook, 7.2.4.1: Wilson confidence intervals"
+}
