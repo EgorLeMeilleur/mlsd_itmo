@@ -1,0 +1,115 @@
+{
+  "records": 3582,
+  "included": 3264,
+  "decode_status": {
+    "ok": 3582
+  },
+  "exclusions": {
+    "exact_duplicate": 3,
+    "source_timestamps_missing": 314,
+    "source_timestamps_mismatch": 1
+  },
+  "records_with_target_annotations": 0,
+  "datasets": {
+    "mnnit-v1": {
+      "records": 182,
+      "included": 179,
+      "source_groups": 1,
+      "size_gib": 0.7105154497548938,
+      "source_classes": {
+        "normal": 90,
+        "shoplifting": 92
+      },
+      "container_fps_values": [
+        30.0
+      ],
+      "median_frames_included": 327,
+      "median_container_duration_s_included": 10.9,
+      "median_source_span_s_included": null,
+      "most_common_resolution_included": "640×480",
+      "source_time_status": {
+        "not_applicable": 182
+      },
+      "official_splits": {
+        "unspecified": 182
+      }
+    },
+    "zenodo-10149996": {
+      "records": 794,
+      "included": 794,
+      "source_groups": 268,
+      "size_gib": 0.8750959448516369,
+      "source_classes": {
+        "normal": 363,
+        "shoplifting": 431
+      },
+      "container_fps_values": [
+        30.0,
+        30.022
+      ],
+      "median_frames_included": 117.0,
+      "median_container_duration_s_included": 3.9,
+      "median_source_span_s_included": null,
+      "most_common_resolution_included": "640×352",
+      "source_time_status": {
+        "not_applicable": 794
+      },
+      "official_splits": {
+        "unspecified": 794
+      }
+    },
+    "ucf-crime-shoplifting": {
+      "records": 50,
+      "included": 50,
+      "source_groups": 50,
+      "size_gib": 2.4684519339352846,
+      "source_classes": {
+        "shoplifting": 50
+      },
+      "container_fps_values": [
+        30.0
+      ],
+      "median_frames_included": 2769.5,
+      "median_container_duration_s_included": 92.3166665,
+      "median_source_span_s_included": null,
+      "most_common_resolution_included": "320×240",
+      "source_time_status": {
+        "not_applicable": 50
+      },
+      "official_splits": {
+        "test": 21,
+        "train": 29
+      }
+    },
+    "retailaction": {
+      "records": 2556,
+      "included": 2241,
+      "source_groups": 1278,
+      "size_gib": 1.4696670761331916,
+      "source_classes": {
+        "put": 22,
+        "put+take": 22,
+        "put+touch": 2,
+        "take": 2254,
+        "take+touch": 4,
+        "unlabeled": 252
+      },
+      "container_fps_values": [
+        6.0
+      ],
+      "median_frames_included": 32,
+      "median_container_duration_s_included": 5.333333,
+      "median_source_span_s_included": 5.8,
+      "most_common_resolution_included": "600×600",
+      "source_time_status": {
+        "valid": 2241,
+        "missing": 314,
+        "count_mismatch": 1
+      },
+      "official_splits": {
+        "validation": 2554,
+        "train": 2
+      }
+    }
+  }
+}

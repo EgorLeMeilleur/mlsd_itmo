@@ -1,0 +1,36 @@
+{
+  "status": "proposed_budget_not_completed_annotations",
+  "unit": "one target event or one reviewed ordinary-action interval",
+  "splits": {
+    "training_examples": {
+      "concealment": 25,
+      "ordinary": 25
+    },
+    "validation": {
+      "concealment": 25,
+      "ordinary": 25
+    },
+    "test": {
+      "concealment": 50,
+      "ordinary": 50
+    }
+  },
+  "total_intervals": 200,
+  "pilot_intervals_in_training": 20,
+  "pilot_class_counts": {
+    "concealment": 10,
+    "ordinary": 10
+  },
+  "confidence_level": 0.95,
+  "test_count_per_class": 50,
+  "maximum_wilson_half_width": 0.1335548568317142,
+  "test_source_group_target": 50,
+  "assumptions": [
+    "The class-conditional observations must be sufficiently independent.",
+    "Related windows and source groups must not cross split boundaries.",
+    "The pilot is part of the total budget, not an additional sample.",
+    "This calculation does not justify precision at natural prevalence or false alerts/hour.",
+    "Increase the budget or use group-level uncertainty estimates if observations cluster."
+  ],
+  "method_reference": "NIST/SEMATECH e-Handbook, 7.2.4.1: Wilson confidence intervals"
+}
