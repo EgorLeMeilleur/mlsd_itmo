@@ -1,0 +1,35 @@
+{
+  "description": "Снимок метаданных предварительного аудита публичных видеоданных. Содержит все полученные записи, включая дубли и исключения. Результаты моделей и ручных экспериментов не включены.",
+  "snapshot_sha256": "97e51ad7c103119cb8ca5a295615ceb608002cfdbc8930d4f39415a083fdfda4",
+  "source_registry_sha256": {
+    "mnnit-v1": "c1a5a2aaffd73c90b9c685f6f1685fc0adce67ec699a8adde962e3716e3a3778",
+    "retailaction": "53d9012fa66e09d0c9f91f437ed4d0e083f17dbea66d9fc35dd65af6dc7b9e4a",
+    "ucf-crime-shoplifting": "43fc89901eb83adb47d3d35895d9b7b88328f44ff2344b20ac3f715c941d1dcf",
+    "zenodo-10149996": "8c6e3d9fe4ee15d657e486a6fffb11771da997ef4588166ebde1182a145472f9"
+  },
+  "scope": "Основная сводка рассчитана по сохранённым метаданным. Дополнительно выполнены визуальный разбор 32 кадров из 8 видео и повторное чтение 35 исходников с отклонениями; результаты сохранены отдельно. Полный повторный аудит корпуса не выполнялся.",
+  "identifiers": "Идентификаторы записей и исходных групп заменены хешами. Пути к исходникам, персональные данные и пользовательские результаты моделей не сохранены.",
+  "time_fields": "container_duration_s и container_fps описывают MP4. source_span_s — интервал между первым и последним выбранными кадрами RetailAction при согласованных авторских метках; это не объём непрерывно проанализированного видео.",
+  "datasets": {
+    "mnnit-v1": {
+      "name": "MNNIT Shoplifting",
+      "identifier": "Mendeley r3yjf35hzr, version 1",
+      "scope": "Normal / Shoplifting; постановочные сцены"
+    },
+    "zenodo-10149996": {
+      "name": "Zenodo Shoplifting",
+      "identifier": "Zenodo record 10149996",
+      "scope": "Normal / Shoplifting; связанные фрагменты исходных записей"
+    },
+    "ucf-crime-shoplifting": {
+      "name": "UCF-Crime Shoplifting",
+      "identifier": "UCF-Crime, category Shoplifting",
+      "scope": "Только категория Shoplifting; общий интервал аномалии не равен точному сокрытию"
+    },
+    "retailaction": {
+      "name": "RetailAction",
+      "identifier": "Standard AI / RetailAction",
+      "scope": "1277 эпизодов validation и один эпизод train, по два ракурса; полный корпус не получен"
+    }
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "scope": "Выборочная повторная проверка всех отмеченных отклонений разрешения и числа кадров; это не повторный аудит всего корпуса.",
+  "method": "ffprobe: count_frames, video stream 0; SHA-256 исходника сверяется со снимком.",
+  "records": [
+    {
+      "record_id": "809cf2e95d950b8138dd",
+      "dataset": "mnnit-v1",
+      "content_sha256": "7776760bccc3faf67a678c36f9d4eac45aedbc0e46aba6d99b9f5507bcdf62c1",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 506
+      },
+      "decoded": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 506
+      },
+      "matches": true
+    },
+    {
+      "record_id": "6e411d8d0b7f3329e6ef",
+      "dataset": "mnnit-v1",
+      "content_sha256": "823badbf0c5b85ff202b9c2fefd63af11443e71e83c52d132376f6970320fabb",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 620
+      },
+      "decoded": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 620
+      },
+      "matches": true
+    },
+    {
+      "record_id": "f35ae4852ad83d82a1af",
+      "dataset": "mnnit-v1",
+      "content_sha256": "da1c8317994f56fb007ff6434c052cb7480a7367738f4d2563835d932ab6853e",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 320
+      },
+      "decoded": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 320
+      },
+      "matches": true
+    },
+    {
+      "record_id": "b353d5aad064ee0c0416",
+      "dataset": "mnnit-v1",
+      "content_sha256": "7c541963ca2f1b2c3ffc7f4fe7e3332ac8bb355a8a698571846bf006011bf97f",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 404
+      },
+      "decoded": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 404
+      },
+      "matches": true
+    },
+    {
+      "record_id": "acadf0c3fa97c38f20fa",
+      "dataset": "mnnit-v1",
+      "content_sha256": "fc89d009d9299a9afefbe062bc3612711783ad2aa3435e2fa1a52c1d5b224959",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 373
+      },
+      "decoded": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 373
+      },
+      "matches": true
+    },
+    {
+      "record_id": "fff31455e4e2a4ba3958",
+      "dataset": "mnnit-v1",
+      "content_sha256": "e87ba2f6b02452d54b994a0a1b8de21ca09876edf960fdaa985dde7405203e67",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 262
+      },
+      "decoded": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 262
+      },
+      "matches": true
+    },
+    {
+      "record_id": "6360423301ac4dd27fdf",
+      "dataset": "mnnit-v1",
+      "content_sha256": "c5a35cbf7637063c8e4cfa08dd5d124a0fc614e1ff3300cd69172fa54b5d36b3",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 373
+      },
+      "decoded": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 373
+      },
+      "matches": true
+    },
+    {
+      "record_id": "8cc04c6428a478d65f01",
+      "dataset": "mnnit-v1",
+      "content_sha256": "5b2ca63800fec73b10f31c78bb7413fca8332850cbc9e83287aa06e368aa6527",
+      "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 340
+      },
+      "decoded": {
+        "width": 1920,
+        "height": 1080,
+        "frame_count": 340
+      },
+      "matches": true
+    },
+    {
+      "record_id": "0023f99196a5014f799a",
+      "dataset": "retailaction",
+      "content_sha256": "3be95abb886547c65acc4301f16f312d26bace785b0f6ac30264227aaaf4aa8b",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "058211aa963f4c0a4687",
+      "dataset": "retailaction",
+      "content_sha256": "87cb8c18e6089a6ccec12c6aabcfcb2ef302b36fe793bccef13ee587f5adb770",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "f5f44aa80b10c5903265",
+      "dataset": "retailaction",
+      "content_sha256": "285622868368d485e860d2a514f090920ba123dccc395b241020a9ec1b96fb71",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "a101e98b2076613507a1",
+      "dataset": "retailaction",
+      "content_sha256": "ad425b04d4f8bf0b3ee4703c89decace263f4367adb0262ce2d14af624f9b398",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 34
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 34
+      },
+      "matches": true
+    },
+    {
+      "record_id": "487a8ae771cef5f946ef",
+      "dataset": "retailaction",
+      "content_sha256": "a3128e35b5a91ffc8305f7a86590f4623994d25346dc24f0dd79615c6b8f403e",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 34
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 34
+      },
+      "matches": true
+    },
+    {
+      "record_id": "57f4f2eb682a97d3bd9b",
+      "dataset": "retailaction",
+      "content_sha256": "46a45a47dd329ff3f6bf2e207cd07864825c8609de151c30f6dfe44a3975b3b1",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 51
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 51
+      },
+      "matches": true
+    },
+    {
+      "record_id": "9ee2344f56ceadfa2699",
+      "dataset": "retailaction",
+      "content_sha256": "04627822d71724eb5978d834273dfc453a63b0b2083ae0ee066f2336991d33bc",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 51
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 51
+      },
+      "matches": true
+    },
+    {
+      "record_id": "1ff9683e892e98d2ca9f",
+      "dataset": "retailaction",
+      "content_sha256": "66b93314a2e6b5357ffca976ddef693c7757a3fb91a2136a5ca21c844ded4501",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 54
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 54
+      },
+      "matches": true
+    },
+    {
+      "record_id": "de79b108fd15036ea052",
+      "dataset": "retailaction",
+      "content_sha256": "9972c2bcfcd2a86ff7ee2d56b2afa41f3cdd701b99d0151acc4077d15f92a02f",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 54
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 54
+      },
+      "matches": true
+    },
+    {
+      "record_id": "97659733e5e01194c7a8",
+      "dataset": "retailaction",
+      "content_sha256": "048debd73e38712be79e68daebe0e1d7fc7289f0ac5f7bda33c252e2954675e4",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "e1d5d1b53877dc44806f",
+      "dataset": "retailaction",
+      "content_sha256": "85d0f37d4a8af480ba101148645b44c459e221f1e5421f58b3aae30dfaffc1f3",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "f3c7313884bc526d7092",
+      "dataset": "retailaction",
+      "content_sha256": "3d25e0030fde27329d819cb0da608ad6c82c3d64cb005361fdee91e4b98b5555",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 34
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 34
+      },
+      "matches": true
+    },
+    {
+      "record_id": "fce6ca8babcbe71af334",
+      "dataset": "retailaction",
+      "content_sha256": "a6fd9fc5b12d6e51ef03d07d8ee1d6389656f22fcc2b82245208c5705c3fe222",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 34
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 34
+      },
+      "matches": true
+    },
+    {
+      "record_id": "03a462433900f5c7b741",
+      "dataset": "retailaction",
+      "content_sha256": "fc89ff3845b5ab47d5df7a95d8d38cf91ebe97b5b2270b727517ba2e5b9d2e4c",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 38
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 38
+      },
+      "matches": true
+    },
+    {
+      "record_id": "424cb35ecc88ab2e8ddf",
+      "dataset": "retailaction",
+      "content_sha256": "af2a47c8198d74cd6a3b78dfc62d57b7af7e16f3d41dc50329bb5e3da3a1fd84",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 38
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 38
+      },
+      "matches": true
+    },
+    {
+      "record_id": "d9fac4584fb518d3643e",
+      "dataset": "retailaction",
+      "content_sha256": "0f48a4ee6fc08faefc5285f69d6bfec108470b6e6ebd84f39a10c3708c32d8e4",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "794acbdfb7454722f5f4",
+      "dataset": "retailaction",
+      "content_sha256": "2ea5ff082285c264f6019c5d6bd5deb830f76595ac9cc881de495d203030615b",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "747a978e0a927f0b0dfd",
+      "dataset": "retailaction",
+      "content_sha256": "58020d2163ecfcecaf904d9ee174c4d59bc80653fe70732dd2b024c51a5bb7f6",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "ef7ba4bad2b20abe2e3c",
+      "dataset": "retailaction",
+      "content_sha256": "61203bd2e343e9ce67aa937cd9a282b775d7266081d3a0ee66c06591b5259d95",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 49
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 49
+      },
+      "matches": true
+    },
+    {
+      "record_id": "e6bcd8e45516b7509dce",
+      "dataset": "retailaction",
+      "content_sha256": "db8046cddd61cad7037fdd00eca7271568e62082c05c4ee7a49aefa3ca5db26d",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 49
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 49
+      },
+      "matches": true
+    },
+    {
+      "record_id": "591cd505a3b2f1f40f3b",
+      "dataset": "retailaction",
+      "content_sha256": "2f29715242dfb0fc93d8f5af97e56e90618324063b5bb5c013aaf6f398fd9d85",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "c63fa29f1fcaafcc0e6d",
+      "dataset": "retailaction",
+      "content_sha256": "009bdc59729438b4b9d5bdc3fec53189238306f9a23e82116ae384325084bbdd",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 48
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 48
+      },
+      "matches": true
+    },
+    {
+      "record_id": "d00609ddd7829bc36e31",
+      "dataset": "retailaction",
+      "content_sha256": "cacc7ad42db794f45cf23bbfdc2934c5d4ad3fbf30b6578551f24db19c5447de",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 48
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 48
+      },
+      "matches": true
+    },
+    {
+      "record_id": "7e956593ca16077f90d3",
+      "dataset": "retailaction",
+      "content_sha256": "55a4013c5b3771b68a3f5a12c9874f95d014bb847ac401c0dd59d5bf537fb5ac",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "e1cc88bbabd16d52d646",
+      "dataset": "retailaction",
+      "content_sha256": "3233a10fdcf9f13f6efc92f48925aa1537b3a65f4da918c3e2b0548cac830061",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "a3f25079fec1f93e0c79",
+      "dataset": "retailaction",
+      "content_sha256": "82fddeac8a2f2d264911345fb15c456c4e0eddc87972c54d49cd8ad15764a1e8",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    },
+    {
+      "record_id": "8ad705061280919febde",
+      "dataset": "retailaction",
+      "content_sha256": "8b776eca7687381bdab1c9872218c45d54b568c035c376c6fd0e78498073afb2",
+      "metadata": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "decoded": {
+        "width": 600,
+        "height": 600,
+        "frame_count": 33
+      },
+      "matches": true
+    }
+  ],
+  "checked": 35,
+  "matched": 35
+}

@@ -1,0 +1,26 @@
+target-version = "py310"
+line-length = 100
+
+extend-exclude = [
+    ".git",
+    ".venv",
+    "build",
+    "dist",
+    "outputs",
+    "checkpoints",
+]
+
+[lint]
+select = [
+    "E4",  # Ошибки импортов
+    "E7",  # Ошибки синтаксического стиля
+    "E9",  # Синтаксические ошибки
+    "F",   # Pyflakes
+    "I",   # Сортировка импортов
+    "B",   # Потенциальные баги
+    "UP",  # Устаревшие конструкции Python
+]
+
+[format]
+quote-style = "double"
+indent-style = "space"
