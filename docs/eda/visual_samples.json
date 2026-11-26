@@ -1,0 +1,567 @@
+{
+  "selection": "8 видео / 5 исходных групп. Выбор по источнику, авторскому классу и хешам до визуальной оценки; 4 кадра на 10%, 35%, 60%, 85% диапазона кадров. Ответы моделей и целевые ручные метки не использовались.",
+  "scope": "Иллюстрации качества, не разметка событий и не оценка распространённости проблем. Просмотренные группы не являются нетронутым тестом.",
+  "privacy": "Добавлены серые прямоугольники в области лиц. Они не означают естественное перекрытие. В RetailAction сохранено исходное размытие лиц.",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "dataset": "mnnit-v1",
+      "source_class": "normal",
+      "record_id": "f28727fd951802644030",
+      "source_sha256": "0343209f34813e9e9c94890f45a25e757b674a8bc9e40dbc58bc7254bcd3ac0d",
+      "group_id": "c7b20ba542591381ab71",
+      "width": 640,
+      "height": 480,
+      "frame_count": 346,
+      "frames": [
+        {
+          "file": "visual_samples/case_01_f000034.png",
+          "frame_index": 34,
+          "privacy_rectangles_xyxy": [
+            [
+              250,
+              192,
+              307,
+              278
+            ],
+            [
+              352,
+              192,
+              410,
+              278
+            ]
+          ],
+          "sha256": "e70068a0ecc24ee0500a8b5429d51e24d58b927b66013bfab34bca5d0766a225"
+        },
+        {
+          "file": "visual_samples/case_01_f000121.png",
+          "frame_index": 121,
+          "privacy_rectangles_xyxy": [
+            [
+              250,
+              192,
+              307,
+              278
+            ],
+            [
+              352,
+              192,
+              410,
+              278
+            ]
+          ],
+          "sha256": "241bfb4cbcb96e47bd4e9b4fb0a32215d2b39e80b1864931979c3c637a5479e0"
+        },
+        {
+          "file": "visual_samples/case_01_f000207.png",
+          "frame_index": 207,
+          "privacy_rectangles_xyxy": [
+            [
+              250,
+              192,
+              307,
+              278
+            ],
+            [
+              352,
+              192,
+              410,
+              278
+            ]
+          ],
+          "sha256": "3648ebba1437d8f63c3e6d19ce223e0911841e4d473cad823ef0c5df5f78345d"
+        },
+        {
+          "file": "visual_samples/case_01_f000293.png",
+          "frame_index": 293,
+          "privacy_rectangles_xyxy": [
+            [
+              250,
+              192,
+              307,
+              278
+            ],
+            [
+              352,
+              192,
+              410,
+              278
+            ]
+          ],
+          "sha256": "7f367011c9d57b743fa646431667f48f36fdf0baf204ac4fbb7bd661b729abde"
+        }
+      ]
+    },
+    {
+      "case_id": "case_02",
+      "dataset": "mnnit-v1",
+      "source_class": "shoplifting",
+      "record_id": "6e209ec8656e4a4bdf60",
+      "source_sha256": "00258ea84c4163b7fee32ed1e3dfdb614ed3565f023b5251280d5a746b5da3e7",
+      "group_id": "c7b20ba542591381ab71",
+      "width": 640,
+      "height": 480,
+      "frame_count": 341,
+      "frames": [
+        {
+          "file": "visual_samples/case_02_f000034.png",
+          "frame_index": 34,
+          "privacy_rectangles_xyxy": [
+            [
+              352,
+              154,
+              422,
+              230
+            ],
+            [
+              58,
+              221,
+              141,
+              293
+            ]
+          ],
+          "sha256": "1f92d3ee080453b4813f516fcf129972ba468208c55587b9f064d9e9ec46bbba"
+        },
+        {
+          "file": "visual_samples/case_02_f000119.png",
+          "frame_index": 119,
+          "privacy_rectangles_xyxy": [
+            [
+              230,
+              163,
+              320,
+              259
+            ],
+            [
+              58,
+              221,
+              141,
+              293
+            ]
+          ],
+          "sha256": "c8d6fc9c9bfcaa10c221ba07fd17cfbbcff1aedd69cec8b36b64fcd6888756e5"
+        },
+        {
+          "file": "visual_samples/case_02_f000204.png",
+          "frame_index": 204,
+          "privacy_rectangles_xyxy": [
+            [
+              326,
+              182,
+              442,
+              283
+            ],
+            [
+              58,
+              221,
+              141,
+              293
+            ]
+          ],
+          "sha256": "24d5a5d381097fdd38c65215ab244fc3e0bc700f08aa28428cc2fbc3093d2669"
+        },
+        {
+          "file": "visual_samples/case_02_f000289.png",
+          "frame_index": 289,
+          "privacy_rectangles_xyxy": [
+            [
+              179,
+              139,
+              371,
+              269
+            ],
+            [
+              58,
+              221,
+              141,
+              293
+            ]
+          ],
+          "sha256": "bb089802a4a53c19a97003dffac759b9178dec8c8e6a95ad8befd9b1dc281b61"
+        }
+      ]
+    },
+    {
+      "case_id": "case_03",
+      "dataset": "zenodo-10149996",
+      "source_class": "normal",
+      "record_id": "4c474613e0f0cdf86c02",
+      "source_sha256": "5bce1db0e61d870d1da9eb42eacbfbafca46af61b69f5599420f8f69c4988d4e",
+      "group_id": "00b2bc9d35bd2feda3a2",
+      "width": 640,
+      "height": 352,
+      "frame_count": 118,
+      "frames": [
+        {
+          "file": "visual_samples/case_03_f000012.png",
+          "frame_index": 12,
+          "privacy_rectangles_xyxy": [
+            [
+              256,
+              0,
+              371,
+              109
+            ]
+          ],
+          "sha256": "94aceda9fe7415bf9848678ea9ad9a660d8acc6ed79559adf4b1cb365b8f9d00"
+        },
+        {
+          "file": "visual_samples/case_03_f000041.png",
+          "frame_index": 41,
+          "privacy_rectangles_xyxy": [
+            [
+              256,
+              0,
+              371,
+              109
+            ]
+          ],
+          "sha256": "c99d5d434c30f3060cea5e9857b5c7f63d53b53dc1d8e04bf8b084c64bd8fe07"
+        },
+        {
+          "file": "visual_samples/case_03_f000070.png",
+          "frame_index": 70,
+          "privacy_rectangles_xyxy": [
+            [
+              256,
+              0,
+              371,
+              109
+            ]
+          ],
+          "sha256": "4dd9894b26e93e6c3ae942d819b94b3e1b7f58a2f598a79250637ffbf86ff544"
+        },
+        {
+          "file": "visual_samples/case_03_f000099.png",
+          "frame_index": 99,
+          "privacy_rectangles_xyxy": [
+            [
+              256,
+              0,
+              371,
+              109
+            ]
+          ],
+          "sha256": "fb0e308ce5e6e319c10eee2b18284d2c5bd0ae43ecf87042db34fccee6a661f4"
+        }
+      ]
+    },
+    {
+      "case_id": "case_04",
+      "dataset": "zenodo-10149996",
+      "source_class": "shoplifting",
+      "record_id": "57a1254a64aefbb13663",
+      "source_sha256": "00ed23a46d5c96cc6501fbbe3943d0f527f64a18cf3ee02425b5dd934b1b62e0",
+      "group_id": "00b2bc9d35bd2feda3a2",
+      "width": 640,
+      "height": 352,
+      "frame_count": 119,
+      "frames": [
+        {
+          "file": "visual_samples/case_04_f000012.png",
+          "frame_index": 12,
+          "privacy_rectangles_xyxy": [
+            [
+              198,
+              35,
+              314,
+              130
+            ]
+          ],
+          "sha256": "bf7f9ceb7bbe090569d8097a18309342bd0ae418f2d3a1fd4a5de15ff26c7a28"
+        },
+        {
+          "file": "visual_samples/case_04_f000041.png",
+          "frame_index": 41,
+          "privacy_rectangles_xyxy": [
+            [
+              198,
+              35,
+              314,
+              130
+            ]
+          ],
+          "sha256": "34312d6b56328be311e0de128b14472c7ba27879ec711ff71a0d4a1eba37c788"
+        },
+        {
+          "file": "visual_samples/case_04_f000071.png",
+          "frame_index": 71,
+          "privacy_rectangles_xyxy": [
+            [
+              198,
+              35,
+              314,
+              130
+            ]
+          ],
+          "sha256": "9a586d21b97574d580fe7cc81e12608ee537a3e2c4258550371e60b4c0bfab5d"
+        },
+        {
+          "file": "visual_samples/case_04_f000100.png",
+          "frame_index": 100,
+          "privacy_rectangles_xyxy": [
+            [
+              198,
+              35,
+              314,
+              130
+            ]
+          ],
+          "sha256": "1e20b03f914a8ed4f4a633e37234378a53cadda6b5b2541d35d856a00919d340"
+        }
+      ]
+    },
+    {
+      "case_id": "case_05",
+      "dataset": "ucf-crime-shoplifting",
+      "source_class": "shoplifting",
+      "record_id": "199bb4b8c8a94e206210",
+      "source_sha256": "078c78d774bd15636a0cced866e18251bfc58d45f7268850e487d4708bad9b79",
+      "group_id": "6d204691b42fc61bfe78",
+      "width": 320,
+      "height": 240,
+      "frame_count": 457,
+      "frames": [
+        {
+          "file": "visual_samples/case_05_f000046.png",
+          "frame_index": 46,
+          "privacy_rectangles_xyxy": [
+            [
+              80,
+              103,
+              147,
+              156
+            ]
+          ],
+          "sha256": "aadbf63a1f4c6d7101f7415166cd0c953b8481588dcf2bfb2d7b6aabb75df53a"
+        },
+        {
+          "file": "visual_samples/case_05_f000160.png",
+          "frame_index": 160,
+          "privacy_rectangles_xyxy": [
+            [
+              80,
+              103,
+              147,
+              156
+            ]
+          ],
+          "sha256": "55096cc1d78956ce435dcfd906a83151d8de122dffc9c4d75b63da248c29d9dc"
+        },
+        {
+          "file": "visual_samples/case_05_f000274.png",
+          "frame_index": 274,
+          "privacy_rectangles_xyxy": [
+            [
+              109,
+              77,
+              179,
+              134
+            ]
+          ],
+          "sha256": "86961e8ca1b58e641f9ef86d42beab9e319f53f29784233614af601ef6c608af"
+        },
+        {
+          "file": "visual_samples/case_05_f000388.png",
+          "frame_index": 388,
+          "privacy_rectangles_xyxy": [
+            [
+              125,
+              17,
+              205,
+              77
+            ]
+          ],
+          "sha256": "92ef4d836e267a8c9ee84107fa375905691f1d69ea71408714b7f4fa0b351afe"
+        }
+      ]
+    },
+    {
+      "case_id": "case_06",
+      "dataset": "ucf-crime-shoplifting",
+      "source_class": "shoplifting",
+      "record_id": "f2f9913d1cd0f62a6673",
+      "source_sha256": "0a5611581cb60f684287443c283606381bc7e997dc3a865ed786664efc17bd9a",
+      "group_id": "25861a473fa118bff8d2",
+      "width": 320,
+      "height": 240,
+      "frame_count": 1386,
+      "frames": [
+        {
+          "file": "visual_samples/case_06_f000138.png",
+          "frame_index": 138,
+          "privacy_rectangles_xyxy": [
+            [
+              160,
+              38,
+              246,
+              103
+            ],
+            [
+              6,
+              29,
+              86,
+              103
+            ],
+            [
+              0,
+              108,
+              58,
+              182
+            ]
+          ],
+          "sha256": "42e6d4fd8191c1764ce0eeac96a520a82b4f00c3c07955ef9f25859c39816f58"
+        },
+        {
+          "file": "visual_samples/case_06_f000485.png",
+          "frame_index": 485,
+          "privacy_rectangles_xyxy": [
+            [
+              150,
+              67,
+              230,
+              127
+            ],
+            [
+              6,
+              29,
+              86,
+              103
+            ],
+            [
+              0,
+              108,
+              58,
+              182
+            ]
+          ],
+          "sha256": "6bb35100217255b3241ffed3bafd75080d3b037417b0bfe92e22cabacafd2203"
+        },
+        {
+          "file": "visual_samples/case_06_f000831.png",
+          "frame_index": 831,
+          "privacy_rectangles_xyxy": [
+            [
+              154,
+              53,
+              243,
+              118
+            ],
+            [
+              3,
+              43,
+              86,
+              110
+            ],
+            [
+              0,
+              108,
+              58,
+              182
+            ]
+          ],
+          "sha256": "4479ce74218f77e801fbd957d4d04d243f31318a5c22e77ae8feb68cdffb02c1"
+        },
+        {
+          "file": "visual_samples/case_06_f001177.png",
+          "frame_index": 1177,
+          "privacy_rectangles_xyxy": [
+            [
+              134,
+              5,
+              243,
+              84
+            ],
+            [
+              3,
+              31,
+              86,
+              106
+            ],
+            [
+              0,
+              108,
+              58,
+              182
+            ]
+          ],
+          "sha256": "96f4fc8e85352c4902a09a8ee5139560bcc789d6fd86175436a5652fdf2a4112"
+        }
+      ]
+    },
+    {
+      "case_id": "case_07",
+      "dataset": "retailaction",
+      "source_class": "take",
+      "record_id": "b5ad3b63ff0da6c6bfd5",
+      "source_sha256": "8e119635274fa0ff087d4d2af2c0d25365e8351107192155e5fa131a999542c3",
+      "group_id": "000e1c8b5a4789280654",
+      "width": 600,
+      "height": 600,
+      "frame_count": 32,
+      "frames": [
+        {
+          "file": "visual_samples/case_07_f000003.png",
+          "frame_index": 3,
+          "privacy_rectangles_xyxy": [],
+          "sha256": "9941cbe9d7dd71dcfa69a3b4f211cbc421c91cc7f1014ce116dec539ff14bdca"
+        },
+        {
+          "file": "visual_samples/case_07_f000011.png",
+          "frame_index": 11,
+          "privacy_rectangles_xyxy": [],
+          "sha256": "add9ff2d1bb3df81629fc7df2c8842afc8e0927ba1d04e7aa083c6b669b9071b"
+        },
+        {
+          "file": "visual_samples/case_07_f000019.png",
+          "frame_index": 19,
+          "privacy_rectangles_xyxy": [],
+          "sha256": "4abb8c7757486e128fb031113746029299ce8d0869ec51da03a9a2f068540fff"
+        },
+        {
+          "file": "visual_samples/case_07_f000026.png",
+          "frame_index": 26,
+          "privacy_rectangles_xyxy": [],
+          "sha256": "bad9bd708ea3df772b54503c0bf8f544209a206e0fb133e67fe79a01bcc2e13e"
+        }
+      ]
+    },
+    {
+      "case_id": "case_08",
+      "dataset": "retailaction",
+      "source_class": "take",
+      "record_id": "e07900323da50ccd809b",
+      "source_sha256": "09d440eed401d103937b20da069969f95541fe74be948054cb4629cb49c11be8",
+      "group_id": "000e1c8b5a4789280654",
+      "width": 600,
+      "height": 600,
+      "frame_count": 32,
+      "frames": [
+        {
+          "file": "visual_samples/case_08_f000003.png",
+          "frame_index": 3,
+          "privacy_rectangles_xyxy": [],
+          "sha256": "b99ccc08e1445159a90668b81c554aaa7a7a8f8b3e3bcae453b2c827081e792d"
+        },
+        {
+          "file": "visual_samples/case_08_f000011.png",
+          "frame_index": 11,
+          "privacy_rectangles_xyxy": [],
+          "sha256": "74b5dfc3dbbda7f60436aa4c59ba35ddb81dc04cd44e03643d46bc74facc8f0c"
+        },
+        {
+          "file": "visual_samples/case_08_f000019.png",
+          "frame_index": 19,
+          "privacy_rectangles_xyxy": [],
+          "sha256": "aed05b947dbce699a26ef98ea2d5f0d53a7dac5273a2dba4708d8b2071a6ab13"
+        },
+        {
+          "file": "visual_samples/case_08_f000026.png",
+          "frame_index": 26,
+          "privacy_rectangles_xyxy": [],
+          "sha256": "e95d98871896f0905c089f84ae752a69e318681561cef054386d95c79349b848"
+        }
+      ]
+    }
+  ]
+}
